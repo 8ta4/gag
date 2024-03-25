@@ -6,23 +6,32 @@
 
 > Does `gag` aim to make everyone laugh?
 
-No. `gag` aims not to make everyone laugh but to achieve net positive upvotes in the r/jokes subreddit, acknowledging humor's subjective nature.
+`gag` doesn't aim to make every single person laugh. Instead, `gag` aims to create jokes that a specific user finds more statistically significantly funnier based on a user-customized set of criteria than a joke they provide. This comparison involves a statistical test to evaluate the joke's humor value against the user-provided joke.
 
-> What's the target likelihood for jokes to achieve net positive upvotes?
+> What statistical test does `gag` use?
 
-`gag` is designed with the target of a 95% likelihood that the jokes it generates will receive net positive upvotes when shared in the r/jokes subreddit.
+To decide if a joke is funnier than a user's example, `gag` uses a binomial test. This test is chosen because each evaluation of a joke represents a binary outcome, akin to a success or failure in a series of independent trials. The binomial test helps determine if the proportion of successes is significantly higher than what would be expected by chance, given a certain confidence level.
 
-> Why is it a 95% likelihood for achieving net positive upvotes?
+> What is the target confidence level?
 
-95% is the golden number in academic research to say, "Yeah, we're pretty sure this is legit."
+The target confidence level is 95%.
 
-> Why use Reddit for evaluating jokes?
+> Why is the target confidence level 95%?
 
-Reddit's whole upvote/downvote game gives us a solid number to work with. This feature allows us to use upvotes as a proxy for humor effectiveness.
+95% is the number in academic research to say, "Yeah, we're pretty sure this is legit."
 
-> Why specifically target the r/jokes subreddit?
+> Does using language models to evaluate humor lead to a misalignment with human sense of humor?
 
-The r/jokes subreddit is the largest community for jokesters on Reddit.
+Yes, using language models to assess humor can sometimes not align with how humans perceive humor. This challenge is not unique to language models but is also present in other methods like analyzing datasets from online forums or conducting human trials. All three methods grapple with the issue of accurately reflecting the humor preferences of diverse individuals.
+
+Analyzing datasets from online forums introduces further issues due to its uncontrolled observational nature. These additional complications include:
+
+- Traffic Fluctuations: Variability in site traffic affects the visibility.
+- Timing of Posts: The success of a joke can depend on when it is posted, due to varying audience sizes at different times.
+- Changing Community Composition: The evolving demographics of online communities over time can shift the prevailing sense of humor.
+- Popularity Bias: Jokes going viral might receive higher ratings for reasons other than their humor quality.
+
+Conducting human trials to evaluate humor is also challenging due to the significant financial investments required.
 
 ### Topicality
 

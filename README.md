@@ -2,7 +2,7 @@
 
 > What's this guide all about?
 
-This guide will introduce you to a method I call `gag` (Gags Ain't GANs), which is designed to generate jokes. It's got three main parts: generating cliches and phrases, creating jokes, and evaluating jokes. This process steals techniques from Joe Toplyn's "[Comedy Writing for Late-Night TV](https://www.goodreads.com/en/book/show/22350931)".
+This guide will introduce you to a method I call `gag` (Gags Ain't GANs), which is designed to generate jokes. It's got three main parts: generating cliches and phrases, creating jokes, and evaluating jokes. This process steals techniques from "[Comedy Writing for Late-Night TV](https://www.goodreads.com/en/book/show/22350931)".
 
 > How do I generate cliches and phrases?
 

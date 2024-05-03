@@ -2,11 +2,11 @@
 
 > What's this guide all about?
 
-This guide will introduce you to a method I call `gag` (Gags Ain't GANs), which is designed to generate jokes. It's got three main parts: generating cliches and phrases, creating jokes, and evaluating jokes. This process steals techniques from Joe Toplyn's "Comedy Writing for Late-Night TV".
+This guide will introduce you to a method I call `gag` (Gags Ain't GANs), which is designed to generate jokes. It's got three main parts: generating cliches and phrases, creating jokes, and evaluating jokes. This process steals techniques from Joe Toplyn's "[Comedy Writing for Late-Night TV](https://www.goodreads.com/en/book/show/22350931)".
 
 > How do I generate cliches and phrases?
 
-1. Open Claude 3 Opus.
+1. Open [Claude 3 Opus](https://claude.ai).
 
 1. Enter the prompt:
 
@@ -38,7 +38,7 @@ This guide will introduce you to a method I call `gag` (Gags Ain't GANs), which 
 
 > How do I evaluate the jokes?
 
-1. Switch to GPT-4.
+1. Switch to [GPT-4](https://chat.openai.com).
 
 1. Enter the prompt:
 

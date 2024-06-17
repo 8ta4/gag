@@ -27,7 +27,7 @@ This guide will introduce you to a method I call `gag` (Gags Ain't GANs), which 
 1. Enter the prompt:
 
    ```
-   Using the items from the following list, create jokes that incorporate a play on words. Each joke should link two items, no more, no less. The play on words can be achieved through either two different words that sound similar or one word that has two different meanings. For example, if the list contains 'Bernie Madoff' associated with 'fraud' and 'Fruit of the Loom', a possible joke could be 'Fraud of the Loom', playing on the sound similarity between 'fraud' and 'fruit'.
+   Using the items from the following list, create jokes that incorporate a play on words. Each joke should link two items, no more, no less. The play on words can be achieved through either two different words that sound similar or one word that has two different meanings. For example, if the list contains "Bernie Madoff" associated with "fraud" and "Fruit of the Loom", a possible joke could be "Fraud of the Loom", playing on the sound similarity between "fraud" and "fruit".
 
    ---
    ```

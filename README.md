@@ -50,6 +50,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    For each joke provided, discuss how well the response flips the initial insult back on the person in a surprising way by using vivid metaphors. Then, give a score from 0 to 10, with 10 being the best.
 
    ---
+
    Do you float a lot in the ocean?
    Sure. What? Do you sink? It might be that cast iron heart.
    ```

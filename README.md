@@ -1,5 +1,7 @@
 # gag
 
+## Gags Ain't GANs
+
 > What's this guide all about?
 
 This guide introduces a method I call `gag` (Gags Ain't GANs), designed to generate jokes using two different approaches: comebacks and wordplay. Each approach involves three steps: generating material, creating jokes, and evaluating jokes.

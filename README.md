@@ -15,7 +15,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 1. Enter the prompt:
 
    ```
-   Generate simple, conversational, and insulting questions. For example, "[Do you float a lot in the ocean?](https://youtu.be/VN3zrFBXynw?t=10)" serves as a reference for the style. Draw loose inspiration from any section of the following article, but make sure each question doesn't rely on the article for context.
+   Generate simple, conversational, and insulting questions. For example, "Do you float a lot in the ocean?" serves as a reference for the style. Draw loose inspiration from any section of the following article, but make sure each question doesn't rely on the article for context.
 
    ---
    ```
@@ -59,7 +59,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
 1. Run GPT-4o to get scores on each joke.
 
-The "cast iron heart" joke is from the late-night talk show Conan. If your jokes score as high or higher than the reference joke, they might be as funny as or funnier than what you see on TV.
+[The "cast iron heart" joke](https://youtu.be/VN3zrFBXynw?t=10) is from the late-night talk show Conan. If your jokes score as high or higher than the reference joke, they might be as funny as or funnier than what you see on TV.
 
 > How do I create jokes?
 

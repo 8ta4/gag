@@ -2,23 +2,25 @@
 
 > What's this guide all about?
 
-This guide will introduce you to a method I call `gag` (Gags Ain't GANs), which is designed to generate jokes. It's got three main parts: generating cliches and phrases, creating jokes, and evaluating jokes. This process steals techniques from "[Comedy Writing for Late-Night TV](https://www.goodreads.com/en/book/show/22350931)".
+This guide introduces a method I call `gag` (Gags Ain't GANs), designed to generate jokes using two different approaches: comebacks and wordplay. Each approach involves three steps: generating material, creating jokes, and evaluating jokes.
 
-> How do I generate cliches and phrases?
+## Wordplay
+
+> How do I generate material?
 
 1. Open [Claude 3 Opus](https://claude.ai).
 
 1. Enter the prompt:
 
    ```
-   Generate recognizable cliches and phrases loosely associated with the topic of the following article. For each phrase or cliche, provide a brief explanation of how it relates to the article's content.
+   Generate cliches loosely associated with any section of the following article. For each phrase or cliche, provide a brief explanation of how it relates to the article's content.
 
    ---
    ```
 
 1. Paste the article content below the prompt.
 
-1. Run Claude 3 Opus to get a list of cliches and phrases.
+1. Run Claude 3 Opus to get a list of cliches.
 
 > How do I create jokes?
 
@@ -32,7 +34,7 @@ This guide will introduce you to a method I call `gag` (Gags Ain't GANs), which 
    ---
    ```
 
-1. Copy and paste the cliches and phrases you generated before below the prompt.
+1. Copy and paste the cliches you generated before below the prompt.
 
 1. Run Claude 3 Opus to get a list of joke ideas.
 

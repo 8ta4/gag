@@ -4,41 +4,35 @@
 
 > What's this guide all about?
 
-This guide introduces a method I call `gag` (Gags Ain't GANs), designed to generate jokes using two different approaches: comebacks and wordplay. Each approach involves three steps: generating material, creating jokes, and evaluating jokes.
+This guide introduces a method I call `gag` (Gags Ain't GANs), designed to generate jokes using two different approaches: comebacks and wordplay. Each approach involves three steps: generating jokes and evaluating jokes.
 
 ## Comebacks
 
-> How do I generate material?
+> How do I generate jokes?
 
-1. Open [GPT-4o](https://openai.com/index/hello-gpt-4o/).
+1. Open [OpenAI o3-mini](https://openai.com/index/openai-o3-mini).
 
 1. Enter the prompt:
 
    ```
-   Generate simple, conversational, and insulting questions. For example, "Do you float a lot in the ocean?" serves as a reference for the style. Draw loose inspiration from any section of the following article, but make sure each question doesn't rely on the article for context.
-
+   Generate multiple pairs of comeback jokes based on the following article. For each pair:
+   
+   1. Create a short, conversational, insulting question that could work without article context without using the word "or"
+   
+   2. Create a clever, surprising, and offensive comeback that flips the initial insult back on the person
+   
+   Example pair:
+   
+   Q: "Do you float a lot in the ocean?"
+   
+   A: "Sure. What? Do you sink? It might be that cast iron heart."
+   
    ---
    ```
 
 1. Paste the article content below the prompt.
 
-1. Run GPT-4o to get a list of questions.
-
-> How do I create jokes?
-
-1. Open a new session in GPT-4o.
-
-1. Enter the prompt:
-
-   ```
-   Using the following list of questions, create clever, surprising, and offensive comebacks in response. Each comeback should be brief and can consist of multiple short sentences. For instance, if the question is "Do you float a lot in the ocean?", a suitable comeback could be "Sure. What? Do you sink? It might be that cast iron heart."
-
-   ---
-   ```
-
-1. Copy and paste the questions you generated before below the prompt.
-
-1. Run GPT-4o to get a list of jokes.
+1. Run OpenAI o3-mini to get a list of jokes.
 
 > How do I evaluate the jokes?
 
@@ -63,9 +57,9 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
 ## Wordplay
 
-> How do I create jokes?
+> How do I generate jokes?
 
-1. Open [OpenAI o3-mini](https://openai.com/index/openai-o3-mini).
+1. Open OpenAI o3-mini.
 
 1. Enter the prompt:
 

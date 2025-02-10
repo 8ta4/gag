@@ -61,41 +61,41 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
 [The "cast iron heart" joke](https://youtu.be/VN3zrFBXynw?t=10) is from the late-night talk show Conan. If your jokes score as high or higher than the reference joke, they might be as funny as or funnier than what you see on TV.
 
-> How do I create jokes?
-
 ## Wordplay
 
-> How do I generate material?
+> How do I create jokes?
 
-1. Open [Claude 3 Opus](https://claude.ai).
+1. Open [OpenAI o3-mini](https://openai.com/index/openai-o3-mini).
 
 1. Enter the prompt:
 
    ```
-   Generate cliches loosely associated with any section of the following article. For each phrase or cliche, provide a brief explanation of how it relates to the article's content.
-
+   Generate multiple pairs of wordplay jokes based on the following article. For each pair:
+   
+   1. Identify a cliche that relates to the article's content
+   
+   2. Create a humorous variation using any of these methods:
+   
+      - Replacing a word with its homophone
+   
+      - Replacing a word with a similar-sounding word
+   
+      - Combining multiple words
+   
+      - Splitting a word
+   
+   Example pair:
+   
+   Original: Fruit of the Loom
+   
+   Modified: Fraud of the Loom
+   
    ---
    ```
 
 1. Paste the article content below the prompt.
 
-1. Run Claude 3 Opus to get a list of cliches.
-
-> How do I create jokes?
-
-1. Open a new session in Claude 3 Opus.
-
-1. Enter the prompt:
-
-   ```
-   Using the items from the following list, create jokes that incorporate a play on words. Each joke should link two items, no more, no less. The play on words can be achieved through either two different words that sound similar or one word that has two different meanings. For example, if the list contains "Bernie Madoff" associated with "fraud" and "Fruit of the Loom", a possible joke could be "Fraud of the Loom", playing on the sound similarity between "fraud" and "fruit".
-
-   ---
-   ```
-
-1. Copy and paste the cliches you generated before below the prompt.
-
-1. Run Claude 3 Opus to get a list of jokes.
+1. Run OpenAI o3-mini to get a list of jokes.
 
 This process steals techniques from "[Comedy Writing for Late-Night TV](https://www.goodreads.com/en/book/show/22350931)".
 

@@ -19,7 +19,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    
    1. Create a short, conversational, insulting question that could work without article context without using the word "or"
    
-   2. Create a clever, surprising, and offensive comeback that flips the initial insult back on the person
+   2. Create a short, clever, and surprising comeback that flips the initial insult back on the person
    
    Example pair:
    

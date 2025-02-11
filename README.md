@@ -15,17 +15,53 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 1. Enter the prompt:
 
    ```
-   Generate multiple pairs of comeback jokes based on the following article. For each pair:
+   Generate a comeback joke based on the provided article using this process:
    
-   1. Create a short, conversational, insulting question that could work without article context without using the word "or"
+   1. Identify a phrase that:
    
-   2. Create a short, clever, and surprising comeback that flips the initial insult back on the person
+      - Is insulting
    
-   Example pair:
+      - Has double meanings
    
-   Q: Do you float a lot in the ocean?
+      - Is commonly used in everyday speech
    
-   A: Sure. What? Do you sink? It might be that cast iron heart.
+      - Relates to concepts in the article
+   
+   2. Create a setup that:
+   
+      - Is insulting
+   
+      - References the phrase's first meaning
+   
+      - Does not use the phrase itself
+   
+      - Works in everyday conversation
+   
+      - Requires no article knowledge
+   
+      - Is short
+   
+      - Addresses "you"
+   
+   3. Create a comeback that:
+   
+      - Transforms the intended insult into a weapon against the insulter
+   
+      - Uses the phrase's alternate meaning
+   
+      - Uses the phrase itself
+   
+      - Relates to concepts in the article
+   
+      - Is short
+   
+   Example:
+   
+   Phrase: cast iron heart
+   
+   Setup: Do you float a lot in the ocean?
+   
+   Comeback: Sure. What? Do you sink? It might be that cast iron heart.
    
    ---
    ```

@@ -100,23 +100,35 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 1. Enter the prompt:
 
    ```
-   Generate multiple pairs of wordplay jokes based on the following article. For each pair:
+   Generate a wordplay joke based on the provided article using this process:
    
-   1. Identify a cliche that relates to the article's content
+   1. Identify an original phrase that:
    
-   2. Create a humorous variation using any of these methods:
+      - Is commonly used in everyday speech
    
-      - Replacing a word with its homophone
+      - Relates to concepts in the article
    
-      - Replacing a word with a similar-sounding word
+   2. Choose one modification technique:
    
-      - Combining multiple words
+      - Replace a word with its synonym
    
-      - Splitting a word
+      - Replace a word with its antonym
    
-   Example pair:
+      - Replace a word with its homophone
+   
+      - Change less than half of the phonemes in a word
+   
+   3. Create the modified result that:
+   
+      - Has a completely different meaning from the original phrase
+   
+      - Relates to concepts in the article
+   
+   Example:
    
    Original: Fruit of the Loom
+   
+   Technique: Change less than half of the phonemes in a word
    
    Modified: Fraud of the Loom
    

@@ -4,7 +4,7 @@
 
 > What's this guide all about?
 
-This guide introduces a method I call `gag` (Gags Ain't GANs), designed to generate jokes using two different approaches: comebacks and wordplay. Each approach involves three steps: generating jokes and evaluating jokes.
+This guide introduces a method I call `gag` (Gags Ain't GANs), designed to generate jokes using two different approaches: comebacks and wordplay. Each approach follows two steps: generating jokes and evaluating jokes.
 
 ## Comebacks
 

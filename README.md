@@ -43,7 +43,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    2. Setup: Do you float a lot in the ocean?
    3. Comeback: Sure. What? Do you sink? It might be that cast iron heart.
    
-   ## Output Format
+   ## Output
    1. Phrase: [phrase]
    2. Setup: [setup]
    3. Comeback: [comeback]
@@ -105,7 +105,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    2. Technique: Change less than half of the phonemes in a word
    3. Modified: Fraud of the Loom
    
-   ## Output Format
+   ## Output
    1. Original: [original]
    2. Technique: [technique]
    3. Modified: [modified]

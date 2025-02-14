@@ -96,7 +96,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
       - Replace a word with its antonym
       - Replace a word with its homophone
       - Change less than half of the phonemes in a word
-   3. Create the modified phrase that:
+   3. Create a modified phrase that:
       - Has a completely different meaning from the original phrase
       - Relates to concepts in the article
    

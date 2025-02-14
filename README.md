@@ -15,55 +15,40 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 1. Enter the prompt:
 
    ```
-   Generate a comeback joke based on the provided article using this process:
+   # Generate a comeback joke
    
+   ## Process
    1. Identify a phrase that:
-   
       - Is insulting
-   
       - Has double meanings
-   
       - Is commonly used in everyday speech
-   
       - Relates to concepts in the article
-   
    2. Create a setup that:
-   
       - Is insulting
-   
       - References the phrase's first meaning
-   
       - Does not use the phrase itself
-   
       - Works in everyday conversation
-   
       - Requires no article knowledge
-   
       - Is short
-   
       - Addresses "you"
-   
    3. Create a comeback that:
-   
       - Transforms the intended insult into a weapon against the insulter
-   
       - Uses the phrase's alternate meaning
-   
       - Uses the phrase itself
-   
       - Relates to concepts in the article
-   
       - Is short
    
-   Example:
+   ## Example
+   1. Phrase: cast iron heart
+   2. Setup: Do you float a lot in the ocean?
+   3. Comeback: Sure. What? Do you sink? It might be that cast iron heart.
    
-   Phrase: cast iron heart
+   ## Output Format
+   1. Phrase: [phrase]
+   2. Setup: [setup]
+   3. Comeback: [comeback]
    
-   Setup: Do you float a lot in the ocean?
-   
-   Comeback: Sure. What? Do you sink? It might be that cast iron heart.
-   
-   ---
+   ## Article
    ```
 
 1. Paste the article content below the prompt.
@@ -100,39 +85,32 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 1. Enter the prompt:
 
    ```
-   Generate a wordplay joke based on the provided article using this process:
+   # Generate a wordplay joke
    
+   ## Process
    1. Identify an original phrase that:
-   
       - Is commonly used in everyday speech
-   
       - Relates to concepts in the article
-   
    2. Choose one modification technique:
-   
       - Replace a word with its synonym
-   
       - Replace a word with its antonym
-   
       - Replace a word with its homophone
-   
       - Change less than half of the phonemes in a word
-   
-   3. Create the modified result that:
-   
+   3. Create the modified phrase that:
       - Has a completely different meaning from the original phrase
-   
       - Relates to concepts in the article
    
-   Example:
+   ## Example
+   1. Original: Fruit of the Loom
+   2. Technique: Change less than half of the phonemes in a word
+   3. Modified: Fraud of the Loom
    
-   Original: Fruit of the Loom
+   ## Output Format
+   1. Original: [original]
+   2. Technique: [technique]
+   3. Modified: [modified]
    
-   Technique: Change less than half of the phonemes in a word
-   
-   Modified: Fraud of the Loom
-   
-   ---
+   ## Article
    ```
 
 1. Paste the article content below the prompt.

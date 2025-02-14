@@ -8,7 +8,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
 ## Comebacks
 
-> How do I generate jokes?
+> How do I generate a comeback joke?
 
 1. Open [OpenAI o3-mini](https://openai.com/index/openai-o3-mini).
 
@@ -53,9 +53,9 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
 1. Paste the article content below the prompt.
 
-1. Run OpenAI o3-mini to get a list of jokes.
+1. Run OpenAI o3-mini to get a comeback joke.
 
-> How do I evaluate the jokes?
+> How do I evaluate the comeback jokes?
 
 1. Open a new session in GPT-4o.
 
@@ -78,7 +78,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
 ## Wordplay
 
-> How do I generate jokes?
+> How do I generate a wordplay joke?
 
 1. Open OpenAI o3-mini.
 
@@ -115,11 +115,11 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
 1. Paste the article content below the prompt.
 
-1. Run OpenAI o3-mini to get a list of jokes.
+1. Run OpenAI o3-mini to get a wordplay joke.
 
 This process steals techniques from "[Comedy Writing for Late-Night TV](https://www.goodreads.com/en/book/show/22350931)".
 
-> How do I evaluate the jokes?
+> How do I evaluate the wordplay jokes?
 
 1. Switch to GPT-4o.
 

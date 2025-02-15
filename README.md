@@ -99,16 +99,28 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    3. Create a modified phrase that:
       - Has a completely different meaning from the original phrase
       - Relates to concepts in the article
+   4. Create a setup that:
+      - Does not use the modified phrase
+      - Relates to concepts in the article
+      - Is short
+   5. Create a punchline that:
+      - Use the modified phrase
+      - Relates to concepts in the article
+      - Is short
    
    ## Example
    1. Original: Fruit of the Loom
    2. Technique: Change less than half of the phonemes in a word
    3. Modified: Fraud of the Loom
+   4. Setup: Bernie Madoff's underpants were sold at an auction.
+   5. Punchline: They were from "Fraud of the Loom."
    
    ## Output
    1. Original: [original]
    2. Technique: [technique]
    3. Modified: [modified]
+   4. Setup: [setup]
+   5. Punchline: [punchline]
    
    ## Article
    ```

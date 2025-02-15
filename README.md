@@ -10,7 +10,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
 > How do I generate a comeback joke?
 
-1. Open [OpenAI o3-mini](https://openai.com/index/openai-o3-mini).
+1. Open [DeepSeek-R1](https://api-docs.deepseek.com/news/news250120).
 
 1. Enter the prompt:
 
@@ -53,7 +53,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
 1. Paste the article content below the prompt.
 
-1. Run OpenAI o3-mini to get a comeback joke.
+1. Run DeepSeek-R1 to get a comeback joke.
 
 > How do I evaluate the comeback jokes?
 
@@ -80,7 +80,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
 > How do I generate a wordplay joke?
 
-1. Open OpenAI o3-mini.
+1. Open DeepSeek-R1.
 
 1. Enter the prompt:
 
@@ -127,7 +127,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
 1. Paste the article content below the prompt.
 
-1. Run OpenAI o3-mini to get a wordplay joke.
+1. Run DeepSeek-R1 to get a wordplay joke.
 
 This process steals techniques from "[Comedy Writing for Late-Night TV](https://www.goodreads.com/en/book/show/22350931)".
 

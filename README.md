@@ -23,30 +23,30 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
       - Has double meanings
       - Is commonly used in everyday speech
       - Relates to concepts in the article
-   2. Create a setup that:
+   2. Create a comeback that:
+      - Transforms the intended insult into a weapon against the insulter
+      - Uses the phrase's first meaning
+      - Uses the phrase itself
+      - Relates to concepts in the article
+      - Is short
+   3. Create a setup that:
       - Is insulting
-      - References the phrase's first meaning
+      - References the phrase's alternate meaning
       - Does not use the phrase itself
       - Works in everyday conversation
       - Requires no article knowledge
       - Is short
       - Addresses "you"
-   3. Create a comeback that:
-      - Transforms the intended insult into a weapon against the insulter
-      - Uses the phrase's alternate meaning
-      - Uses the phrase itself
-      - Relates to concepts in the article
-      - Is short
    
    ## Example
    1. Phrase: cast iron heart
-   2. Setup: Do you float a lot in the ocean?
-   3. Comeback: Sure. What? Do you sink? It might be that cast iron heart.
+   2. Comeback: Sure. What? Do you sink? It might be that cast iron heart.
+   3. Setup: Do you float a lot in the ocean?
    
    ## Output
    1. Phrase: [phrase]
-   2. Setup: [setup]
-   3. Comeback: [comeback]
+   2. Comeback: [comeback]
+   3. Setup: [setup]
    
    ## Article
    ```
@@ -99,12 +99,12 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    3. Create a modified phrase that:
       - Has a completely different meaning from the original phrase
       - Relates to concepts in the article
-   4. Create a setup that:
-      - Does not use the modified phrase
+   4. Create a punchline that:
+      - Use the modified phrase
       - Relates to concepts in the article
       - Is short
-   5. Create a punchline that:
-      - Use the modified phrase
+   5. Create a setup that:
+      - Does not use the modified phrase
       - Relates to concepts in the article
       - Is short
    
@@ -112,15 +112,15 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    1. Original: Fruit of the Loom
    2. Technique: Change less than half of the phonemes in a word
    3. Modified: Fraud of the Loom
-   4. Setup: Bernie Madoff's underpants were sold at an auction.
-   5. Punchline: They were from "Fraud of the Loom."
+   4. Punchline: They were from "Fraud of the Loom."
+   5. Setup: Bernie Madoff's underpants were sold at an auction.
    
    ## Output
    1. Original: [original]
    2. Technique: [technique]
    3. Modified: [modified]
-   4. Setup: [setup]
-   5. Punchline: [punchline]
+   4. Punchline: [punchline]
+   5. Setup: [setup]
    
    ## Article
    ```

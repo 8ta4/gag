@@ -82,7 +82,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
 1. Open DeepSeek-R1.
 
-1. Enter the prompt:
+1. Enter either of these prompts:
 
    ```
    # Generate a wordplay joke
@@ -121,6 +121,56 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    3. Modified: [modified]
    4. Punchline: [punchline]
    5. Setup: [setup]
+   
+   ## Article
+   ```
+
+   ```
+   # Generate a wordplay joke
+   ## Process
+   1. Identify a target word that:
+      - Is commonly used in everyday speech
+      - Relates to concepts in the article
+   
+   2. Identify a related word that:
+      - Is a synonym of the target word
+      - Is an antonym of the target word
+      - Is a homophone of the target word
+      - Differs from the target word by less than half of its phonemes
+   
+   3. Identify an original phrase that:
+      - Is commonly used in everyday speech
+      - Contains the related word
+   
+   4. Create the modified phrase by:
+      - Replacing the similar word with the target word
+      - Relates to concepts in the article
+   
+   5. Create a punchline that:
+      - Use the modified phrase
+      - Relates to concepts in the article
+      - Is short
+   
+   6. Create a setup that:
+      - Does not use the modified phrase
+      - Relates to concepts in the article
+      - Is short
+   
+   ## Example
+   1. Target: fraud
+   2. Related: fruit
+   3. Original: Fruit of the Loom
+   4. Modified: Fraud of the Loom
+   5. Punchline: They were from "Fraud of the Loom."
+   6. Setup: Bernie Madoff's underpants were sold at an auction.
+   
+   ## Output
+   1. Target: [word]
+   2. Related: [word]
+   3. Original: [original]
+   4. Modified: [modified]
+   5. Punchline: [punchline]
+   6. Setup: [setup]
    
    ## Article
    ```

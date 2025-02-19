@@ -127,30 +127,26 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
    ```
    # Generate a wordplay joke
+
    ## Process
    1. Identify a target word that:
       - Is commonly used in everyday speech
       - Relates to concepts in the article
-   
    2. Identify a related word that:
       - Is a synonym of the target word
       - Is an antonym of the target word
       - Is a homophone of the target word
       - Differs from the target word by less than half of its phonemes
-   
    3. Identify an original phrase that:
       - Is commonly used in everyday speech
       - Contains the related word
-   
    4. Create the modified phrase by:
       - Replacing the similar word with the target word
       - Relates to concepts in the article
-   
    5. Create a punchline that:
       - Use the modified phrase
       - Relates to concepts in the article
       - Is short
-   
    6. Create a setup that:
       - Does not use the modified phrase
       - Relates to concepts in the article

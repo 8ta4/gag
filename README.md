@@ -82,7 +82,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
 1. Open DeepSeek-R1.
 
-1. Enter either of these prompts:
+1. Enter one of these prompts:
 
    ```
    # Generate a wordplay joke

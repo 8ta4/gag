@@ -39,7 +39,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
       - Addresses "you"
    
    ## Example
-   1. Phrase: cast iron heart
+   1. Phrase: iron heart
    2. Comeback: Sure. What? Do you sink? It might be that cast iron heart.
    3. Setup: Do you float a lot in the ocean?
    

@@ -171,6 +171,47 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    ## Article
    ```
 
+   ```
+   # Generate a wordplay joke
+   
+   ## Process
+   1. Identify a word that:
+      - Has multiple meanings
+      - Is commonly used in everyday speech
+      - Relates to concepts in the article
+   2. Identify a phrase that:
+      - Is commonly used in everyday speech
+      - Contains the word
+   3. Identify the meaning of the word that:
+      - Differs from the meaning used in the phrase
+      - Is commonly used in everyday speech
+   4. Create a punchline that:
+      - Use the phrase
+      - Makes the phrase work with the alternative meaning
+      - Relates to concepts in the article
+      - Is short
+   5. Create a setup that:
+      - Does not use the phrase
+      - Relates to concepts in the article
+      - Is short
+   
+   ## Example
+   1. Word: wing
+   2. Phrase: right wing
+   3. Meaning: one of the horizontal airfoils on either side of the fuselage of an airplane
+   4. Punchline: the right wing isn't happy about it.
+   5. Setup: An airline in Sweden plans to host the first-ever in-flight gay wedding in December. The entire flight crew is excited for the event, although
+   
+   ## Output
+   1. Word: [word]
+   2. Phrase: [phrase]
+   3. Meaning: [meaning]
+   4. Punchline: [punchline]
+   5. Setup: [setup]
+   
+   ## Article
+   ```
+
 1. Paste the article content below the prompt.
 
 1. Run DeepSeek-R1 to get a wordplay joke.
@@ -189,10 +230,11 @@ This process steals techniques from "[Comedy Writing for Late-Night TV](https://
    ---
 
    Bernie Madoff's underpants were sold at an auction. They were from "Fraud of the Loom."
+   An airline in Sweden plans to host the first-ever in-flight gay wedding in December. The entire flight crew is excited for the event, although the right wing isn't happy about it.
    ```
 
 1. Copy and paste the jokes you created below the prompt.
 
 1. Run GPT-4o to get scores on each joke.
 
-That Bernie Madoff underpants joke is from the Late Show with David Letterman. If your jokes score as high or higher than the reference joke, they might be as funny as or funnier than what you see on TV.
+The Fraud of the Loom joke is from the Late Show with David Letterman, and the right wing joke is from Late Night with Jimmy Fallon. If your jokes score as high or higher than these reference jokes, they might be as funny as or funnier than what you see on TV.

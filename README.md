@@ -126,6 +126,47 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
    ```
    # Generate a wordplay joke
+   
+   ## Process
+   1. Identify a phrase that:
+      - Is commonly used in everyday speech
+      - Relates to concepts in the article
+   2. Identify a word within the phrase that:
+      - Has multiple meanings
+      - Is commonly used in everyday speech
+   3. Identify the meaning of the word that:
+      - Differs from the meaning used in the phrase
+      - Is commonly used in everyday speech
+      - Relates to concepts in the article
+   4. Create a punchline that:
+      - Uses the phrase
+      - Makes the phrase work with the alternative meaning
+      - Relates to concepts in the article
+      - Is short
+   5. Create a setup that:
+      - Does not use the phrase
+      - Relates to concepts in the article
+      - Is short
+   
+   ## Example
+   1. Phrase: right wing
+   2. Word: wing
+   3. Meaning: one of the horizontal airfoils on either side of the fuselage of an airplane
+   4. Punchline: the right wing isn't happy about it.
+   5. Setup: An airline in Sweden plans to host the first-ever in-flight gay wedding in December. The entire flight crew is excited for the event, although
+   
+   ## Output
+   1. Phrase: [phrase]
+   2. Word: [word]
+   3. Meaning: [meaning]
+   4. Punchline: [punchline]
+   5. Setup: [setup]
+   
+   ## Article
+   ```
+
+   ```
+   # Generate a wordplay joke
 
    ## Process
    1. Identify a target word that:

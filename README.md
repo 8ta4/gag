@@ -66,8 +66,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
    ---
 
-   Do you float a lot in the ocean?
-   Sure. What? Do you sink? It might be that cast iron heart.
+   Do you float a lot in the ocean? Sure. What? Do you sink? It might be that cast iron heart.
    ```
 
 1. Copy and paste the jokes you created below the prompt.

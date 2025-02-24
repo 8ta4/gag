@@ -87,37 +87,37 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    # Generate a wordplay joke
    
    ## Process
-   1. Identify an original phrase that:
+   1. Identify a word that:
+      - Has multiple meanings
       - Is commonly used in everyday speech
       - Relates to concepts in the article
-   2. Choose one modification technique:
-      - Replace a word with its synonym
-      - Replace a word with its antonym
-      - Replace a word with its homophone
-      - Change less than half of the phonemes in a word
-   3. Create a modified phrase that:
-      - Has a completely different meaning from the original phrase
-      - Relates to concepts in the article
+   2. Identify a phrase that:
+      - Is commonly used in everyday speech
+      - Contains the word
+   3. Identify the meaning of the word that:
+      - Differs from the meaning used in the phrase
+      - Is commonly used in everyday speech
    4. Create a punchline that:
-      - Use the modified phrase
+      - Use the phrase
+      - Makes the phrase work with the alternative meaning
       - Relates to concepts in the article
       - Is short
    5. Create a setup that:
-      - Does not use the modified phrase
+      - Does not use the phrase
       - Relates to concepts in the article
       - Is short
    
    ## Example
-   1. Original: Fruit of the Loom
-   2. Technique: Change less than half of the phonemes in a word
-   3. Modified: Fraud of the Loom
-   4. Punchline: They were from "Fraud of the Loom."
-   5. Setup: Bernie Madoff's underpants were sold at an auction.
+   1. Word: wing
+   2. Phrase: right wing
+   3. Meaning: one of the horizontal airfoils on either side of the fuselage of an airplane
+   4. Punchline: the right wing isn't happy about it.
+   5. Setup: An airline in Sweden plans to host the first-ever in-flight gay wedding in December. The entire flight crew is excited for the event, although
    
    ## Output
-   1. Original: [original]
-   2. Technique: [technique]
-   3. Modified: [modified]
+   1. Word: [word]
+   2. Phrase: [phrase]
+   3. Meaning: [meaning]
    4. Punchline: [punchline]
    5. Setup: [setup]
    
@@ -174,37 +174,37 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    # Generate a wordplay joke
    
    ## Process
-   1. Identify a word that:
-      - Has multiple meanings
+   1. Identify an original phrase that:
       - Is commonly used in everyday speech
       - Relates to concepts in the article
-   2. Identify a phrase that:
-      - Is commonly used in everyday speech
-      - Contains the word
-   3. Identify the meaning of the word that:
-      - Differs from the meaning used in the phrase
-      - Is commonly used in everyday speech
+   2. Choose one modification technique:
+      - Replace a word with its synonym
+      - Replace a word with its antonym
+      - Replace a word with its homophone
+      - Change less than half of the phonemes in a word
+   3. Create a modified phrase that:
+      - Has a completely different meaning from the original phrase
+      - Relates to concepts in the article
    4. Create a punchline that:
-      - Use the phrase
-      - Makes the phrase work with the alternative meaning
+      - Use the modified phrase
       - Relates to concepts in the article
       - Is short
    5. Create a setup that:
-      - Does not use the phrase
+      - Does not use the modified phrase
       - Relates to concepts in the article
       - Is short
    
    ## Example
-   1. Word: wing
-   2. Phrase: right wing
-   3. Meaning: one of the horizontal airfoils on either side of the fuselage of an airplane
-   4. Punchline: the right wing isn't happy about it.
-   5. Setup: An airline in Sweden plans to host the first-ever in-flight gay wedding in December. The entire flight crew is excited for the event, although
+   1. Original: Fruit of the Loom
+   2. Technique: Change less than half of the phonemes in a word
+   3. Modified: Fraud of the Loom
+   4. Punchline: They were from "Fraud of the Loom."
+   5. Setup: Bernie Madoff's underpants were sold at an auction.
    
    ## Output
-   1. Word: [word]
-   2. Phrase: [phrase]
-   3. Meaning: [meaning]
+   1. Original: [original]
+   2. Technique: [technique]
+   3. Modified: [modified]
    4. Punchline: [punchline]
    5. Setup: [setup]
    

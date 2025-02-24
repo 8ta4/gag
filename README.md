@@ -161,8 +161,8 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    6. Setup: Bernie Madoff's underpants were sold at an auction.
    
    ## Output
-   1. Target: [word]
-   2. Related: [word]
+   1. Target: [target]
+   2. Related: [related]
    3. Original: [original]
    4. Modified: [modified]
    5. Punchline: [punchline]

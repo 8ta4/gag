@@ -51,7 +51,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    ## Article
    ```
 
-1. Paste the article content below the prompt.
+1. Paste the article below the prompt.
 
 1. Run DeepSeek-R1 to get a comeback joke.
 
@@ -252,7 +252,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    ## Article
    ```
 
-1. Paste the article content below the prompt.
+1. Paste the article below the prompt.
 
 1. Run DeepSeek-R1 to get a wordplay joke.
 

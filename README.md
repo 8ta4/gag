@@ -15,9 +15,7 @@ With the pure approach, you're just letting large language models do all the hea
 
 ## Wordplay
 
-### Hybrid (Planned)
-
-> How do I generate a wordplay joke using the hybrid approach?
+> How do I generate a wordplay joke using the hybrid approach? (Planned)
 
 1. Run the command to get modified phrases:
 
@@ -61,8 +59,6 @@ With the pure approach, you're just letting large language models do all the hea
 1. Paste the article content and modified phrases below the prompt.
 
 1. Run DeepSeek-R1 to get a wordplay joke.
-
-### Pure
 
 > How do I generate a wordplay joke using the pure approach?
 

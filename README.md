@@ -17,13 +17,15 @@ With the pure approach, you're just letting large language models do all the hea
 
 > How do I generate a wordplay joke using the hybrid approach? (Planned)
 
+1. Open a terminal window.
+
 1. Run the command to get modified phrases:
 
    ```
    gag article.txt
    ```
 
-1. Open DeepSeek-R1
+1. [Open DeepSeek-R1](https://api-docs.deepseek.com/news/news250120)
 
 1. Enter the prompt:
 
@@ -245,7 +247,7 @@ This process steals techniques from "[Comedy Writing for Late-Night TV](https://
 
 > How do I evaluate the wordplay jokes?
 
-1. Switch to GPT-4o.
+1. Switch to [GPT-4o](https://openai.com/index/hello-gpt-4o/).
 
 1. Enter the prompt:
 
@@ -268,7 +270,7 @@ The Fraud of the Loom joke is from the Late Show with David Letterman, and the r
 
 > How do I generate a comeback joke?
 
-1. Open [DeepSeek-R1](https://api-docs.deepseek.com/news/news250120).
+1. Open DeepSeek-R1.
 
 1. Enter the prompt:
 

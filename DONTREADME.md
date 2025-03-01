@@ -73,3 +73,20 @@ No. The `gag` CLI follows a four-step process to generate wordplay:
 
 So some articles might give you tons of modified phrases, while others might only give you a few, depending on the available wordplay opportunities in the content.
 
+> What sources does the `gag` CLI use for words and phrases?
+
+The `gag` CLI pulls from two main places:
+
+- Titles of English Wikipedia articles, excluding redirects
+
+- Titles from English Wiktionary that are categorized as English lemmas
+
+> Does the `gag` CLI filter words and phrases by frequency before runtime?
+
+Nope. Word frequency doesn't tell you if the audience of an article will know a word. For wordplay jokes to land, people need to recognize both the original phrase and the replacement word. That's dependent on who's reading the article.
+
+> Does the `gag` CLI filter words and phrases during runtime?
+
+No, it doesn't. The `gag` CLI already narrows things down a lot by checking if words sound similar and if they're relevant to the article. These constraints keep the output manageable without adding extra filtering steps.
+
+The workflow uses an LLM to evaluate the jokes anyway when creating setups and punchlines, so adding another filtering layer in the middle would just complicate things without much benefit.

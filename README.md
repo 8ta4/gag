@@ -32,6 +32,8 @@ With the pure approach, you're just letting large language models do all the hea
 
    ## Process
    1. Identify a modified phrase that:
+      - Uses a replaced word familiar to the audience of the article
+      - Is a modification of an original phrase familiar to the audience of the article
       - Has a completely different meaning from the original phrase
       - Relates to concepts in the article
    2. Create a punchline that:

@@ -63,13 +63,13 @@ $$\frac{100\text{ dollar/month} \times 1,450\text{ d}}{30\text{ d/month} \times 
 
 No. The `gag` CLI follows a four-step process to generate wordplay:
 
-1. Identify relevant words from the input article
+1. Identify relevant words worth playing with
 
-1. Find phonetically similar words to these relevant words
+1. Hunt for words that sound similar to those relevant words
 
-1. Locate familiar phrases containing the phonetically similar words
+1. Search for phrases that contain these similar-sounding words
 
-1. Create modified phrases by substituting the original article words
+1. Create modified phrases by substituting the words
 
 So some articles might give you tons of modified phrases, while others might only give you a few, depending on the available wordplay opportunities in the content.
 

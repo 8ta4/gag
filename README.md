@@ -72,14 +72,14 @@ With the pure approach, you're just letting large language models do all the hea
    ## Process
    1. Identify a word that:
       - Has multiple meanings
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
       - Relates to concepts in the article
    2. Identify a phrase that:
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
       - Contains the word
    3. Identify the meaning of the word that:
       - Differs from the meaning used in the phrase
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
    4. Create a punchline that:
       - Use the phrase
       - Makes the phrase work with the alternative meaning
@@ -112,14 +112,14 @@ With the pure approach, you're just letting large language models do all the hea
    
    ## Process
    1. Identify a phrase that:
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
       - Relates to concepts in the article
    2. Identify a word within the phrase that:
       - Has multiple meanings
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
    3. Identify the meaning of the word that:
       - Differs from the meaning used in the phrase
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
       - Relates to concepts in the article
    4. Create a punchline that:
       - Uses the phrase
@@ -153,7 +153,7 @@ With the pure approach, you're just letting large language models do all the hea
 
    ## Process
    1. Identify a target word that:
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
       - Relates to concepts in the article
    2. Identify a related word that:
       - Is a synonym of the target word
@@ -161,7 +161,7 @@ With the pure approach, you're just letting large language models do all the hea
       - Is a homophone of the target word
       - Differs from the target word by less than half of its phonemes
    3. Identify an original phrase that:
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
       - Contains the related word
    4. Create the modified phrase by:
       - Replacing the similar word with the target word
@@ -199,7 +199,7 @@ With the pure approach, you're just letting large language models do all the hea
    
    ## Process
    1. Identify an original phrase that:
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
       - Relates to concepts in the article
    2. Choose one modification technique:
       - Replace a word with its synonym
@@ -277,7 +277,7 @@ The Fraud of the Loom joke is from the Late Show with David Letterman, and the r
    1. Identify a phrase that:
       - Is insulting
       - Has double meanings
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
       - Relates to concepts in the article
    2. Create a comeback that:
       - Transforms the intended insult into a weapon against the insulter
@@ -289,7 +289,7 @@ The Fraud of the Loom joke is from the Late Show with David Letterman, and the r
       - Is insulting
       - References the phrase's alternate meaning
       - Does not use the phrase itself
-      - Works in everyday conversation
+      - Is familiar to the audience of the article
       - Requires no article knowledge
       - Is short
       - Addresses "you"

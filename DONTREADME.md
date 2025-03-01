@@ -56,3 +56,20 @@ The goal is to keep monthly usage under $100. This threshold is chosen based on 
 Yes. To gauge whether the tool supports users with high social media engagement, consider the activity of Donald Trump, the greatest comedian in the history of the universe. Imagine if Trump needed a joke for every tweet. During his presidency, Trump shared a total of 26,237 tweets. His term began on January 20, 2017, and his Twitter activity continued until January 8, 2021, the day his access to the platform was suspended. The span between the start of his term and the suspension of his Twitter account totals 1,450 days, considering both the start and end dates inclusively. Given an average of 30 days per month, and assuming each tweet might require a joke, the following formula calculates the cost per joke:
 
 $$\frac{100\text{ dollar/month} \times 1,450\text{ d}}{30\text{ d/month} \times 26,237\text{ tweets}} \approx 0.18\text{ dollar}$$
+
+## CLI
+
+> Does the `gag` CLI produce a fixed number of modified phrases?
+
+No. The `gag` CLI follows a four-step process to generate wordplay:
+
+1. Identify relevant words from the input article
+
+1. Find phonetically similar words to these relevant words
+
+1. Locate familiar phrases containing the phonetically similar words
+
+1. Create modified phrases by substituting the original article words
+
+So some articles might give you tons of modified phrases, while others might only give you a few, depending on the available wordplay opportunities in the content.
+

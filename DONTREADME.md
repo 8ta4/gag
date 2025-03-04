@@ -51,9 +51,7 @@ A threshold of 0.1 ensures jokes are not entirely off-topic, facilitating their 
 
 The goal is to keep monthly usage under $100. This threshold is chosen based on the observation that most productivity tools are priced below this mark.
 
-> Will `gag` aim to maintain a monthly budget goal for heavy social media users like Trump?
-
-Yes. To gauge whether the tool supports users with high social media engagement, consider the activity of Donald Trump, the greatest comedian in the history of the universe. Imagine if Trump needed a joke for every tweet. During his presidency, Trump shared a total of 26,237 tweets. His term began on January 20, 2017, and his Twitter activity continued until January 8, 2021, the day his access to the platform was suspended. The span between the start of his term and the suspension of his Twitter account totals 1,450 days, considering both the start and end dates inclusively. Given an average of 30 days per month, and assuming each tweet might require a joke, the following formula calculates the cost per joke:
+To gauge whether the tool supports users with high social media engagement, consider the activity of Donald Trump, the greatest comedian in the history of the universe. Imagine if Trump needed a joke for every tweet. During his presidency, Trump shared a total of 26,237 tweets. His term began on January 20, 2017, and his Twitter activity continued until January 8, 2021, the day his access to the platform was suspended. The span between the start of his term and the suspension of his Twitter account totals 1,450 days, considering both the start and end dates inclusively. Given an average of 30 days per month, and assuming each tweet might require a joke, the following formula calculates the cost per joke:
 
 $$\frac{100\text{ dollar/month} \times 1,450\text{ d}}{30\text{ d/month} \times 26,237\text{ tweets}} \approx 0.18\text{ dollar}$$
 

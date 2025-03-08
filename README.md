@@ -4,80 +4,67 @@
 
 > What's this guide all about?
 
-This guide introduces a method I call `gag` (Gags Ain't GANs), designed to generate jokes using two different approaches: comebacks and wordplay. Each approach follows two steps: generating jokes and evaluating jokes.
+This guide introduces a method I call `gag` (Gags Ain't GANs), designed to generate two types of jokes: wordplay and comebacks.
+Both types follow the same general structure: generating jokes and evaluating jokes.
 
-## Comebacks
+There are basically two ways to generate jokes: what I call the hybrid approach and the pure approach.
 
-> How do I generate a comeback joke?
+With the hybrid approach, you're mixing old-school brute-force methods with these large language models.
 
-1. Open [DeepSeek-R1](https://api-docs.deepseek.com/news/news250120).
-
-1. Enter the prompt:
-
-   ```
-   # Generate a comeback joke
-   
-   ## Process
-   1. Identify a phrase that:
-      - Is insulting
-      - Has double meanings
-      - Is commonly used in everyday speech
-      - Relates to concepts in the article
-   2. Create a comeback that:
-      - Transforms the intended insult into a weapon against the insulter
-      - Uses the phrase's first meaning
-      - Uses the phrase itself
-      - Relates to concepts in the article
-      - Is short
-   3. Create a setup that:
-      - Is insulting
-      - References the phrase's alternate meaning
-      - Does not use the phrase itself
-      - Works in everyday conversation
-      - Requires no article knowledge
-      - Is short
-      - Addresses "you"
-   
-   ## Example
-   1. Phrase: iron heart
-   2. Comeback: Sure. What? Do you sink? It might be that cast iron heart.
-   3. Setup: Do you float a lot in the ocean?
-   
-   ## Output
-   1. Phrase: [phrase]
-   2. Comeback: [comeback]
-   3. Setup: [setup]
-   
-   ## Article
-   ```
-
-1. Paste the article below the prompt.
-
-1. Run DeepSeek-R1 to get a comeback joke.
-
-> How do I evaluate the comeback jokes?
-
-1. Open a new session in GPT-4o.
-
-1. Enter the prompt:
-
-   ```
-   For each joke provided, discuss how well the response flips the initial insult back on the person in a surprising way by using vivid metaphors. Then, give a score from 0 to 10, with 10 being the best.
-
-   ---
-
-   Do you float a lot in the ocean? Sure. What? Do you sink? It might be that cast iron heart.
-   ```
-
-1. Copy and paste the jokes you created below the prompt.
-
-1. Run GPT-4o to get scores on each joke.
-
-[The "cast iron heart" joke](https://youtu.be/VN3zrFBXynw?t=10) is from the late-night talk show Conan. If your jokes score as high or higher than the reference joke, they might be as funny as or funnier than what you see on TV.
+With the pure approach, you're just letting large language models do all the heavy lifting from start to finish.
 
 ## Wordplay
 
-> How do I generate a wordplay joke?
+> How do I generate a wordplay joke using the hybrid approach? (Planned)
+
+1. Open a terminal window.
+
+1. Run the command to get modified phrases:
+
+   ```
+   pun article.txt
+   ```
+
+1. [Open DeepSeek-R1](https://api-docs.deepseek.com/news/news250120)
+
+1. Enter the prompt:
+
+   ```
+   # Generate a wordplay joke
+
+   ## Process
+   1. Identify a modified phrase that:
+      - Uses a replaced word familiar to the audience of the article
+      - Is a modification of an original phrase familiar to the audience of the article
+      - Has a completely different meaning from the original phrase
+      - Relates to concepts in the article
+   2. Create a punchline that:
+      - Use the modified phrase
+      - Relates to concepts in the article
+      - Is short
+   3. Create a setup that:
+      - Does not use the modified phrase
+      - Relates to concepts in the article
+      - Is short
+
+   ## Example
+   1. Phrase: Fraud of the Loom
+   2. Punchline: They were from "Fraud of the Loom."
+   3. Setup: Bernie Madoff's underpants were sold at an auction.
+
+   ## Output
+   1. Phrase: [phrase]
+   2. Punchline: [punchline]
+   3. Setup: [setup]
+
+   ## Article and Modified Phrases
+   ```
+
+1. Paste the article content and modified phrases below the prompt.
+
+1. Run DeepSeek-R1 to get a wordplay joke.
+
+> How do I generate a wordplay joke using the pure approach?
 
 1. Open DeepSeek-R1.
 
@@ -89,14 +76,14 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    ## Process
    1. Identify a word that:
       - Has multiple meanings
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
       - Relates to concepts in the article
    2. Identify a phrase that:
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
       - Contains the word
    3. Identify the meaning of the word that:
       - Differs from the meaning used in the phrase
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
    4. Create a punchline that:
       - Use the phrase
       - Makes the phrase work with the alternative meaning
@@ -129,14 +116,14 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    
    ## Process
    1. Identify a phrase that:
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
       - Relates to concepts in the article
    2. Identify a word within the phrase that:
       - Has multiple meanings
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
    3. Identify the meaning of the word that:
       - Differs from the meaning used in the phrase
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
       - Relates to concepts in the article
    4. Create a punchline that:
       - Uses the phrase
@@ -170,7 +157,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
 
    ## Process
    1. Identify a target word that:
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
       - Relates to concepts in the article
    2. Identify a related word that:
       - Is a synonym of the target word
@@ -178,7 +165,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
       - Is a homophone of the target word
       - Differs from the target word by less than half of its phonemes
    3. Identify an original phrase that:
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
       - Contains the related word
    4. Create the modified phrase by:
       - Replacing the similar word with the target word
@@ -216,7 +203,7 @@ This guide introduces a method I call `gag` (Gags Ain't GANs), designed to gener
    
    ## Process
    1. Identify an original phrase that:
-      - Is commonly used in everyday speech
+      - Is familiar to the audience of the article
       - Relates to concepts in the article
    2. Choose one modification technique:
       - Replace a word with its synonym
@@ -260,7 +247,7 @@ This process steals techniques from "[Comedy Writing for Late-Night TV](https://
 
 > How do I evaluate the wordplay jokes?
 
-1. Switch to GPT-4o.
+1. Switch to [GPT-4o](https://openai.com/index/hello-gpt-4o/).
 
 1. Enter the prompt:
 
@@ -278,3 +265,72 @@ This process steals techniques from "[Comedy Writing for Late-Night TV](https://
 1. Run GPT-4o to get scores on each joke.
 
 The Fraud of the Loom joke is from the Late Show with David Letterman, and the right wing joke is from Late Night with Jimmy Fallon. If your jokes score as high or higher than these reference jokes, they might be as funny as or funnier than what you see on TV.
+
+## Comebacks
+
+> How do I generate a comeback joke?
+
+1. Open DeepSeek-R1.
+
+1. Enter the prompt:
+
+   ```
+   # Generate a comeback joke
+   
+   ## Process
+   1. Identify a phrase that:
+      - Is insulting
+      - Has double meanings
+      - Is familiar to the audience of the article
+      - Relates to concepts in the article
+   2. Create a comeback that:
+      - Transforms the intended insult into a weapon against the insulter
+      - Uses the phrase's first meaning
+      - Uses the phrase itself
+      - Relates to concepts in the article
+      - Is short
+   3. Create a setup that:
+      - Is insulting
+      - References the phrase's alternate meaning
+      - Does not use the phrase itself
+      - Is familiar to the audience of the article
+      - Requires no article knowledge
+      - Is short
+      - Addresses "you"
+   
+   ## Example
+   1. Phrase: iron heart
+   2. Comeback: Sure. What? Do you sink? It might be that cast iron heart.
+   3. Setup: Do you float a lot in the ocean?
+   
+   ## Output
+   1. Phrase: [phrase]
+   2. Comeback: [comeback]
+   3. Setup: [setup]
+   
+   ## Article
+   ```
+
+1. Paste the article below the prompt.
+
+1. Run DeepSeek-R1 to get a comeback joke.
+
+> How do I evaluate the comeback jokes?
+
+1. Open a new session in GPT-4o.
+
+1. Enter the prompt:
+
+   ```
+   For each joke provided, discuss how well the response flips the initial insult back on the person in a surprising way by using vivid metaphors. Then, give a score from 0 to 10, with 10 being the best.
+
+   ---
+
+   Do you float a lot in the ocean? Sure. What? Do you sink? It might be that cast iron heart.
+   ```
+
+1. Copy and paste the jokes you created below the prompt.
+
+1. Run GPT-4o to get scores on each joke.
+
+[The "cast iron heart" joke](https://youtu.be/VN3zrFBXynw?t=10) is from the late-night talk show Conan. If your jokes score as high or higher than the reference joke, they might be as funny as or funnier than what you see on TV.

@@ -22,7 +22,7 @@ With the pure approach, you're just letting large language models do all the hea
 1. Run the command to get modified phrases:
 
    ```
-   gag article.txt
+   pun article.txt
    ```
 
 1. [Open DeepSeek-R1](https://api-docs.deepseek.com/news/news250120)

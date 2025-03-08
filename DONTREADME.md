@@ -54,37 +54,3 @@ The goal is to keep monthly usage under $100. This threshold is chosen based on 
 To gauge whether the tool supports users with high social media engagement, consider the activity of Donald Trump, the greatest comedian in the history of the universe. Imagine if Trump needed a joke for every tweet. During his presidency, Trump shared a total of 26,237 tweets. His term began on January 20, 2017, and his Twitter activity continued until January 8, 2021, the day his access to the platform was suspended. The span between the start of his term and the suspension of his Twitter account totals 1,450 days, considering both the start and end dates inclusively. Given an average of 30 days per month, and assuming each tweet might require a joke, the following formula calculates the cost per joke:
 
 $$\frac{100\text{ dollar/month} \times 1,450\text{ d}}{30\text{ d/month} \times 26,237\text{ tweets}} \approx 0.18\text{ dollar}$$
-
-## CLI
-
-> Does the `gag` CLI produce a fixed number of modified phrases?
-
-No. The `gag` CLI follows a four-step process to generate wordplay:
-
-1. Identify relevant words worth playing with
-
-1. Hunt for words that sound similar to those relevant words
-
-1. Search for phrases that contain these similar-sounding words
-
-1. Create modified phrases by substituting the words
-
-So some articles might give you tons of modified phrases, while others might only give you a few, depending on the available wordplay opportunities in the content.
-
-> What sources does the `gag` CLI use for words and phrases?
-
-The `gag` CLI pulls from two main places:
-
-- Titles of English Wikipedia articles, excluding redirects
-
-- Titles from English Wiktionary that are categorized as English lemmas
-
-> Does the `gag` CLI filter words and phrases by frequency before runtime?
-
-Nope. Word frequency doesn't tell you if the audience of an article will know a word. For wordplay jokes to land, people need to recognize both the original phrase and the replacement word. That's dependent on who's reading the article.
-
-> Does the `gag` CLI filter words and phrases during runtime?
-
-No, it doesn't. The `gag` CLI already narrows things down a lot by checking if words sound similar and if they're relevant to the article. These constraints keep the output manageable without adding extra filtering steps.
-
-The workflow uses an LLM to evaluate the jokes anyway when creating setups and punchlines, so adding another filtering layer in the middle would just complicate things without much benefit.
